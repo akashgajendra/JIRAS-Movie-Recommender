@@ -1,0 +1,59 @@
+Project 2 Dataset.
+
+This project contains 5 CSV files. The data is contained in data.zip.
+
+The python notebook contains information about how project 2 dataset was generated.
+
+
+The 5 CSV files are:
+1. crew.csv
+2. customer_ratings.csv
+3. names.csv
+4. principals.csv
+5. titles.csv
+
+1. crew.csv
+Contains information about directors and writers for a movie/tvshow.
+Columns  are:
+a. titleId - movie/tvshow Ids.
+b. directors - list of strings of ids for directors. 
+c. writers - list of strings of ids for writers.
+
+2. customer_ratings.csv
+Contains information about ratings by a customer for a specific movie/tvshow.
+a. customerId - Customer ID.
+b. rating
+c. date
+d. titleId - movie/tvshow ID
+
+3. names.csv
+Contains more information about people who took part in creating the movie.  
+Columns are:
+a. nconst - user ID
+b. primaryName
+c. birthYear
+d. deathYear
+e. primaryProfession.
+
+4. principals 
+Contains information about users and the roles the play in movies. 
+Columns are:
+a. titleId - movie/tvshow ID.
+b. nconst - alphanumeric unique identifier of the name/person
+c. category - the category of job that person was in
+d. job  - the specific job title if applicable, else ''
+e. characters - the name of the character played if applicable, else ''
+
+5. titles.
+Contains information about tvshows and movies. 
+Columns are:
+a. titleId
+b. titleType
+c. originalTitle
+d. startYear
+e. endYear
+f. runtimeMinutes
+g. genres
+h. Year
+i. averageRating
+j. numVotes
